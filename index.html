@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mama Njeri's Kitchen</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <header>
+        <div class="logo">Mama Njeri's Kitchen</div>
+
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#order">Order</a>
+            <a href="#visit">Visit</a>
+        </nav>
+    </header>
+
+    <!-- Welcome section -->
+    <section class="hero">
+        <h1>Fresh Kenyan food, cooked daily</h1>
+        <p>Enjoy delicious homemade Kenyan meals.</p>
+    </section>
+
+    <!-- Main content -->
+    <main class="container">
+
+        <!-- Menu section -->
+        <section class="card" id="menu">
+            <h2>Menu (table)</h2>
+
+            <table>
+                <tr>
+                    <th>Dish</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td>Pilau</td>
+                    <td>KES 350</td>
+                </tr>
+
+                <tr>
+                    <td>Ugali & Sukuma</td>
+                    <td>KES 250</td>
+                </tr>
+
+                <tr>
+                    <td>Chapati (2)</td>
+                    <td>KES 100</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Order form -->
+        <section class="card" id="order">
+            <h2>Place an order (form)</h2>
+
+            <form action="#" method="post">
+
+                <input type="text"
+                       placeholder="Your name"
+                       required>
+
+                <select required>
+                    <option value="">Select your meal</option>
+                    <option>Pilau</option>
+                    <option>Ugali & Sukuma</option>
+                    <option>Chapati (2)</option>
+                </select>
+
+                <button type="submit">Send order</button>
+
+            </form>
+        </section>
+
+        <!-- Gallery -->
+        <section class="card gallery">
+
+            <div class="gallery-grid">
+                <img src="images/pilau.jpg" alt="Kenyan pilau">
+                <img src="images/chapati.jpg" alt="Fresh chapati">
+                <img src="images/ugali and sukuma.jpg" alt="Kenyan food">
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="card" id="visit">
+            <h2>Opening hours and contact</h2>
+
+            <p>Monday - Saturday: 8:00 AM - 8:00 PM</p>
+            <p>Sunday: 10:00 AM - 5:00 PM</p>
+            <p>Location: Nairobi, Kenya</p>
+            <p>Phone: +254 700 123 456</p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Mama Njeri's Kitchen</p>
+    </footer>
+
+</body>
+</html>
